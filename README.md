@@ -7,7 +7,7 @@
 
 ## Description
 
-This is an application which demonstrates using Express.js with Mongoose, which allows you to create a backend which saves information into a MongoDB database. MongoDB is a NoSQL database structure which is very different from SQL. In this project I will be creating a connection between the MongoDB and API routes. You are able to to perform CRUD (**C**reate, **R**ead, **U**pdate, and **D**elete) data from the database.
+This is an application which demonstrates using Express.js with Mongoose, which allows you to create a backend which saves information into a MongoDB database. MongoDB is a NoSQL database structure which is very different from SQL. In this project I will be creating a connection between the MongoDB and API routes. You are able to to perform CRUD (**C**reate, **R**ead, **U**pdate, and **D**elete) data from the database. Testing the API routes will be done using Insomnia.
 
 ## Installation
 
@@ -19,5 +19,6 @@ $ npm install
 ```
 
 - To view installed NPM Packages visit `package.json`.
+- Make sure you have Insomnia installed on your machine to perform API routes tests (https://insomnia.rest/).
 
 [Back to Top](#social-media-backend-mongodb)
