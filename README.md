@@ -6,6 +6,7 @@
 - [Installation](#installation)
 - [Start Application](#start-application)
 - [Models](#models)
+- [Routes](#routes)
 - [Images](#images)
 - [Video](#video)
 
@@ -39,8 +40,21 @@ $ npm install
   - thoughtText, createdAt, usernam, and reactions
 - Both models are located in the `/models` directory.
 
-## Images
+## Routes
 
+- API routes in this application are as follows:
+  - `/api/users` this will route to all User where:
+    - `GET` Gets all Users
+    - `POST` Creates a new User
+    - `PUT` Updates User data
+    - `DELETE` Deletes a User
+  - `/api/thoughts` this will route to all the Thoughs where:
+    - `GET` Gets all Users
+    - `POST` Creates a new User
+    - `PUT` Updates User data
+    - `DELETE` Deletes a User
+
+## Images
 
 ## Video
 
