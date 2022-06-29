@@ -1,0 +1,19 @@
+{
+  "name": "social-backend-mongo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rpliszka1987/social-backend-mongo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rpliszka1987/social-backend-mongo/issues"
+  },
+  "homepage": "https://github.com/rpliszka1987/social-backend-mongo#readme"
+}
