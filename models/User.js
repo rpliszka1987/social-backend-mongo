@@ -1,7 +1,5 @@
 // Import mongoose
 const { Schema, model } = require("mongoose");
-// Import helper for data format
-const dateFormat = require("../utils/dateFormat");
 
 const UserSchema = new Schema(
   {
