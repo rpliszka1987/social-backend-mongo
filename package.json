@@ -4,16 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rpliszka1987/social-backend-mongo.git"
   },
-  "author": "",
+  "author": "Robert P",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/rpliszka1987/social-backend-mongo/issues"
   },
-  "homepage": "https://github.com/rpliszka1987/social-backend-mongo#readme"
+  "homepage": "https://github.com/rpliszka1987/social-backend-mongo#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.4.1"
+  }
 }
