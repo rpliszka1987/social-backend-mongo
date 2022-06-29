@@ -4,6 +4,8 @@
 
 - [Description](#description)
 - [Installation](#installation)
+- [Start Application](#start-application)
+- [Models](#models)
 
 ## Description
 
@@ -20,5 +22,19 @@ $ npm install
 
 - To view installed NPM Packages visit `package.json`.
 - Make sure you have Insomnia installed on your machine to perform API routes tests (https://insomnia.rest/).
+
+## Start Application
+
+- Starting the application is very easy. All you need to do is start the Express server which is done using `$ npm start`.
+- Once the server is runing you will get a message in the console. `Connected on localhost:3001`
+
+## Models
+
+- This application is made up of two models:
+  1. User model
+  - username, email, thoughts, and friends
+  2. Thought model
+  - thoughtText, createdAt, usernam, and reactions
+- Both models are located in the `/models` directory.
 
 [Back to Top](#social-media-backend-mongodb)
