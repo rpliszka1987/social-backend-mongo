@@ -6,6 +6,8 @@
 - [Installation](#installation)
 - [Start Application](#start-application)
 - [Models](#models)
+- [Images](#images)
+- [Video](#video)
 
 ## Description
 
@@ -36,5 +38,10 @@ $ npm install
   2. Thought model
   - thoughtText, createdAt, usernam, and reactions
 - Both models are located in the `/models` directory.
+
+## Images
+
+
+## Video
 
 [Back to Top](#social-media-backend-mongodb)
