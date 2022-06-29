@@ -28,7 +28,7 @@ const userController = {
   //   Create new User
   createUser({ body }, res) {
     User.create(body)
-      .then((dbUseData) => res.json(dbUserData))
+      .then((dbUserData) => res.json(dbUserData))
       .catch((err) => {
         console.log(err);
         res.json(err);
@@ -56,7 +56,7 @@ const userController = {
   deleteUser({ params }, res) {
     User.findOneAndDelete({ _id: params.id })
       .then((dbUserData) => {
-        if (dbUserData) {
+        if (!dbUserData) {
           res.status(404).json({ message: "No User with this ID!" });
           return;
         }
