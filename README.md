@@ -7,7 +7,6 @@
 - [Start Application](#start-application)
 - [Models](#models)
 - [Routes](#routes)
-- [Images](#images)
 - [Video](#video)
 
 ## Description
@@ -54,8 +53,8 @@ $ npm install
     - `PUT` Updates User data
     - `DELETE` Deletes a User
 
-## Images
-
 ## Video
+
+https://drive.google.com/file/d/1BszmZkwpxc57HzHvUgoprcQdJkiSOnOc/view
 
 [Back to Top](#social-media-backend-mongodb)
